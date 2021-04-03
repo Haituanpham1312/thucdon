@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth; /* cuộn web*/
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* phan chung */
+    
+    
+    .col-3{
+        width: 33.33333%;
+    }
+    
+    .btn{
+        color: #fff;
+    padding: 11px 16px;
+    background-color:gold;
+    text-decoration: none; /* bo gach chan*/
+    display: inline-block; /* cho tickets k de len description*/
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    }
+    .btn:hover{
+        color: #000; /* nut den thanh xam*/
+        background-color: #ccc;
+    }
+    .title{
+        /* margin-top: 50px; */
+        display: flex;
+        align-items: center;
+        height: 100px;
+        background-color:chocolate;
+        justify-content: center;
+    }
+    .name{
+        /* margin-top: 50px; */
+        color:black;
+        height: 50px;
+        /* text-align: center; */
+      
+
+    }
+    .menu{
+         margin-top: 50px; 
+     }
+    .menu-list{
+        height: 500px;
+         /* margin-top: 50px;   */
+         display: flex; 
+        justify-content: space-evenly;
+        background-color: aliceblue;
+    }
+    .menu-img{
+    width: 350px;
+    height: 260px;
+    }
+    .menu-img:hover{
+        opacity: 0.6;
+    }
+    .menu-body{
+    background-color:goldenrod;
+    padding: 8px;
+    font-size: 15px;
+    width: 350px;
+    }
+    .menu-heading{
+    font-size: 15px;
+    }
+    .menu-price{
+    margin-top:15px ;
+    /* opacity: 0.6; */
+    }
+    .menu-id{
+        margin-top:15px ;
+    
+    }
+    .footer{
+        margin-top: 20px;
+        width: 100%;
+        /* background-color: gray; */
+    text-align: center;
+
+    }
+    .edit{
+    text-decoration: none; /* bo gach chan*/
+    /* text-align: center; */
+/* width: 60px; */
+/* height: 30px; */
+margin-top: 50px;
+    }
